@@ -1,0 +1,58 @@
+h3{
+    color: #aaaaaa;
+}
+
+.bookmarkerBox h2{
+    color: black;
+}
+
+.bookmarkerBox{
+    background-color: #eeeeee;
+}
+
+.bookmarkerBox p{
+    color: #333;
+}
+
+.bookmarkList{
+    background-color: #eeeeee;
+    background-image: linear-gradient(180deg, #eeeeee, white);
+
+}
+
+
+.textTitle{
+    width: 35%;
+    font-weight: 700;
+    color: #333;
+}
+
+.text-color{
+    color: #aaaaaa;
+}
+
+input:hover{
+    box-shadow: 3px 1px 6px 1px rgba(170, 170, 170, 0.6);
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+
+.btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus{
+    box-shadow:none ;
+}
+
+
+.btn:hover{
+    box-shadow: 2px 3px rgba(170, 170, 170, 0.8);
+}
+
+.form-control{
+    padding: 0px 4px;
+}
+
+.form-control:focus{
+    border-color: black;
+    box-shadow: none;
+}
